@@ -92,3 +92,27 @@ x -= 1;
 x--;
 
 
+///////////////////////// if else and truthy and falsy //////////////////////////////////////
+let name1 = "Ko Ko Naing";
+
+if (name1 === "Ko Ko Naing") {
+    console.log("Your name is " + name1);
+} else {
+    console.log("Your name is not " + name1);
+}
+
+//////////////////////// truthy and falsy //////////////////////////////////////
+// 1 false
+// 2 0(zero)
+// 3 '' or "" (empty string)
+// 4 null
+// 5 undefined
+// 6 Not a number (NaN)
+
+let a;
+if (a) {
+    console.log(true);
+} else {
+    console.log(false);
+}
+
