@@ -116,3 +116,31 @@ if (a) {
     console.log(false);
 }
 
+
+/////////////////////////// Conditions and operators /////////////////////////////////////
+let z = undefined;
+if (z == undefined) {
+    console.log(true);
+} else {
+    console.log(false);
+}
+
+/// > < >= <=  
+let b = 9;
+if (b > 10) {
+    console.log(b + 'greater than 10');
+} else {
+    console.log(b + 'less than 10');
+}
+
+// if() else if()
+let num = 10;
+if (num == 10) {
+    console.log('num is equal to 10');
+} else if (num > 10) {
+    console.log('num is greater than 10');
+} else if (num < 10) {
+    console.log('num is less than 10');
+} else {
+    console.log('nothing');
+}
