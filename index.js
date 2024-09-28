@@ -72,3 +72,23 @@ let num1 = "12";
 let num2 = 14;
 //result is -2
 console.log(num1 - num2);
+
+//////////////////////////////// operators and operator precedence //////////////////////////////////
+// + - * / %
+console.log(12 + 12);
+console.log(12 - 10);
+console.log(12 * 12);
+console.log(12 / 2);
+console.log(12 % 2);
+
+//operator precedence 
+let x = 20 - 7 * 10 / 3;
+let y = 1;
+y = y + 1;
+console.log(y);
+y += 1; // shorthand
+y++; // increment
+x -= 1;
+x--;
+
+
