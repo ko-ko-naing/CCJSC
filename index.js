@@ -144,3 +144,24 @@ if (num == 10) {
 } else {
     console.log('nothing');
 }
+
+
+
+/////////////// and gate  or gate /////////////
+let age1 = 18;
+if (age1 >= 1 && age1 <= 18) {
+    console.log('He is young boy.');
+} else if (age1 >= 18 && age1 <= 30) {
+    console.log('He is man.');
+} else if (age1 >= 30 && age1 <= 60) {
+    console.log('He is old.');
+} else {
+    console.log('You are too old');
+}
+
+let c = 11;
+if (c > 10 || c < 10) {
+    console.log('condition true');
+} else {
+    console.log('condition false');
+}
