@@ -165,3 +165,26 @@ if (c > 10 || c < 10) {
 } else {
     console.log('condition false');
 }
+
+///////////////// Function Declaration and Function expression ////////////////
+//function declaration
+
+function showName(name) {
+    alert(name);
+}
+
+showName("kokonaing");
+
+function helloWorld() {
+    console.log('hello world');
+}
+
+helloWorld();
+
+
+//function expressions
+var showMGMGAge = function () {
+    let age = 19;
+    console.log('Mg Mg age is ' + age);
+}
+showMGMGAge(); 
