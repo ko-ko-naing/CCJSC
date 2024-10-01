@@ -109,7 +109,6 @@ if (name1 === "Ko Ko Naing") {
 // 5 undefined
 // 6 Not a number (NaN)
 
-let a;
 if (a) {
     console.log(true);
 } else {
@@ -126,7 +125,6 @@ if (z == undefined) {
 }
 
 /// > < >= <=  
-let b = 9;
 if (b > 10) {
     console.log(b + 'greater than 10');
 } else {
@@ -204,15 +202,30 @@ let result = sumNum(12, 13);
 console.log(result);    
 
 // Es6
-let helloWorld = () => {
+let elloWorld = () => {
     console.log("hello world");
 };
 
 let showAge = age => age;
 
-let sumNum = (num1, num2) => {
+let sumNu = (num1, num2) => {
     return num1 + num2;
 }
 
-let resultNum = sumNum(12, 12);
+let resultNum = sumNu(12, 12);
 console.log(resultNum);
+
+
+
+/////////////////////////////  intro array basic syntax //////////////////////////////
+let myName = "KKN";
+
+let fruits = ["orange", "apple", "banana"];
+
+let kknBio = ["Ko Ko Naing", 23, "Programmer", false];
+
+console.log(fruits.length);
+
+fruits[3] = "watermelon";
+
+console.log(fruits);
