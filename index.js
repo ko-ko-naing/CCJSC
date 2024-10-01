@@ -188,3 +188,31 @@ var showMGMGAge = function () {
     console.log('Mg Mg age is ' + age);
 }
 showMGMGAge(); 
+
+
+///////////////////////// return in function and es6 function ////////////////////////
+function helloWorld() {
+    return "hello world";
+}
+helloWorld();
+console.log(helloWorld());
+
+function sumNum(num1, num2) {
+    return num1 + num2;
+}
+let result = sumNum(12, 13);
+console.log(result);    
+
+// Es6
+let helloWorld = () => {
+    console.log("hello world");
+};
+
+let showAge = age => age;
+
+let sumNum = (num1, num2) => {
+    return num1 + num2;
+}
+
+let resultNum = sumNum(12, 12);
+console.log(resultNum);
