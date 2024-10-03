@@ -1,4 +1,5 @@
 
+
 //1 string data type
 console.log('hello world');
 
@@ -314,3 +315,30 @@ do {
     console.log("hi!" + t);
     t++;
 } while (t < 10);
+
+
+///////////////// Javascript objects //////////////////
+let car = {
+    name: "Honda",
+    color: "white",
+    model: "2018",
+    price: "100,000,000",
+    priceUnit: "MMK",
+
+    fullName: function () {
+        return "koko";
+    },
+
+    carName: (name) => name,
+
+    carPrice() {
+        console.log("I'm car price method"); // It's called method because it's in object
+        return "100,000";
+    }
+};
+
+console.log(car.name, car.color, car.model, car.price, car.priceUnit);
+car.name = "isuzu";
+console.log(car.name);
+console.log(car.carPrice())
+console.log(car.carName("Toyota"));
