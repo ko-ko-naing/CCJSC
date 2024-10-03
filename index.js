@@ -342,3 +342,30 @@ car.name = "isuzu";
 console.log(car.name);
 console.log(car.carPrice())
 console.log(car.carName("Toyota"));
+
+
+//////////////////////////////// Introduction to  this keyword in Javascript  //////////////////////////////////
+let cycle =  {
+    name: "Jialing",
+    model: 2015,
+    detail() {
+        console.log(this.name);
+        console.log(this.model);
+    }
+     
+}
+console.log("================================");
+
+console.log(cycle.detail());
+
+console.log("****")
+let objSample = {
+    name: "objSample",
+}
+
+let Person = {};
+Person.name = "Ko Ko Naing";
+Person.age = 19;
+Person.bioJob = "Programmer";
+
+console.log("===== " + Person.name)
