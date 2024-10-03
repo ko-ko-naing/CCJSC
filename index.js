@@ -576,3 +576,36 @@ class Persono {
 
 let persono3 = new Persono("aung", 21);
 console.log(persono3.getAge());
+
+
+/////////////////////////////////// Extends class ////////////////////////////
+class Parent {
+    constructor(father, mother) {
+        this.father = father;
+        this.mother = mother;
+    }
+
+    greeting() {
+        console.log('Hello');
+    }
+
+    static sayHi() {
+        alert("hi");
+    }
+}
+
+let parent1 = new Parent("U Ba", "Daw Hla");
+console.log(parent1);
+
+class Children extends Parent {
+    constructor(father, mother, childname) {
+        // this.father = father;
+        // this.mother = mother;
+        // this.childname = childname;
+        super(father, mother);
+        this.childname = childname;
+    }
+}
+
+let child1 = new Children("U Mya", "Daw Khaing", "aung aung");
+console.log(child1);
