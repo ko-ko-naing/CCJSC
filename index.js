@@ -467,7 +467,31 @@ for (let i = 0; i < persons.length; i++) {
     console.log(persons[i].name + " " + persons[i].age);
 }
 
+
+// foreach methods has no return value
 persons.forEach(element => {
     console.log(element.name + " " + element.age);
 });
 
+///////////////// array map method and foreach mehtod ///////////////
+
+// map method has return value
+persons.map(element => console.log(element.name + " map " + element.age));
+
+let personData = persons.map((data) => {
+    return data.name;
+});
+
+console.log(personData);
+
+
+let numbers = [1, 2, 3, 4, 5,];
+
+
+let numberNew = numbers.forEach(number => number);
+//////// no return value so undefined
+console.log(numberNew);
+
+// map method can loop and can return new array with modified values
+let numberN = numbers.map(number => number);
+console.log(numberN);
