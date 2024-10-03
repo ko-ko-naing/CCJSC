@@ -611,4 +611,63 @@ let child1 = new Children("U Mya", "Daw Khaing", "aung aung");
 console.log(child1);
 
 ////////////// setInterval function //////////////////////////// 
-setInterval(()=>{ console.log("hello") },3000);
+setInterval(() => { console.log("hello") }, 3000);
+
+setTimeout(() => { 
+    let serverData = [
+        {
+            name: "Ko Ko",
+            age: 20,
+            job: "developer"
+        },
+        {
+            name: "Kyaw",
+            age: 21,
+            job: "programmer"
+        },
+        {
+            name: "No Ki",
+            age: 19,
+            job: "designer"
+        },
+        {
+            name: "Nann",
+            age: 20,
+            job: "frontend developer"
+        }
+    ]
+    console.log(serverData);
+ }, 3000);
+
+
+////// data fetching ///////////////
+setTimeout(() => {
+    let serverData = [
+        {
+            name: "Ko Ko",
+            age: 20,
+            job: "developer"
+        },
+        {
+            name: "Kyaw",
+            age: 21,
+            job: "programmer"
+        },
+        {
+            name: "No Ki",
+            age: 19,
+            job: "designer"
+        },
+        {
+            name: "Nann",
+            age: 20,
+            job: "frontend developer"
+        }
+    ]
+    console.log(serverData);
+    serverData.forEach((data) => {
+        document.write(data.name + "<br/>");
+    })
+},
+    4000
+);
