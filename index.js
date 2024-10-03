@@ -546,3 +546,33 @@ if (userFeedback) {
 ///////// prompt() //////////////////////////////////
 let yourname = prompt("Enter your name");
 console.log(yourname);
+
+
+//////////////////// classs es6 ////////////////////
+
+function persono(name, age) {
+    this.name = name;
+    this.age = age;
+}
+ 
+let persono1 = new persono("aung aung", 19);
+console.log(persono1);
+
+let persono2 = new persono("zaw zaw", 20);
+console.log(persono2);
+
+
+class Persono {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    // static can add 
+    getAge() {
+        console.log("this is age: " + this.age);
+    }
+}
+
+let persono3 = new Persono("aung", 21);
+console.log(persono3.getAge());
