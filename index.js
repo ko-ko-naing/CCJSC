@@ -609,3 +609,6 @@ class Children extends Parent {
 
 let child1 = new Children("U Mya", "Daw Khaing", "aung aung");
 console.log(child1);
+
+////////////// setInterval function //////////////////////////// 
+setInterval(()=>{ console.log("hello") },3000);
