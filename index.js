@@ -444,3 +444,30 @@ if (true) {
 
 // console.log("BirthYear: " + bornYear);
 console.log("Yes");
+
+////////////////////// Test Retrieve Server Data with foreach method //////////////////
+let persons = [
+    {
+        name: "John",
+        age: 21
+    },
+    {
+        name: "Doe",
+        age: 22
+    },
+    {
+        name: "Su Su",
+        age: 23
+    }
+]
+
+console.log(persons[1].name);
+
+for (let i = 0; i < persons.length; i++) {
+    console.log(persons[i].name + " " + persons[i].age);
+}
+
+persons.forEach(element => {
+    console.log(element.name + " " + element.age);
+});
+
