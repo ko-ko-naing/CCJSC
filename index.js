@@ -402,3 +402,45 @@ let bmw = new carDeatials("BMW", 2015, 1982);
 let mercedes = new carDeatials("Mercedes", 2019, 2000);
 console.log(bmw);
 console.log(mercedes);
+
+
+//////////////// not equal operator and switch condigion //////////////////
+let age2 = 15;
+if(16 != age2) console.log("You are not equal");
+
+
+let grade = "A";
+switch (grade) { 
+
+    case "A": 
+        console.log("Go to Class: " + grade);
+        break; 
+    
+    case "B":
+        console.log("Go to Class: " + grade);
+        break; 
+    
+    case "C":
+        console.log("Go to Class: " + grade);
+        break;
+    case "D":
+        console.log("Go to Class: " + grade);
+        break;
+    
+    default:
+        console.log("Invalid grade: " + grade);
+
+}
+
+
+/////////// block //////////////////////////////////
+/// global variables ///////////////
+let age3 = 19;
+console.log("Age: " + age3);
+
+if (true) {
+    let bornYear = 2000;
+}
+
+// console.log("BirthYear: " + bornYear);
+console.log("Yes");
