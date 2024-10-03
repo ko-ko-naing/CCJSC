@@ -229,3 +229,25 @@ console.log(fruits.length);
 fruits[3] = "watermelon";
 
 console.log(fruits);
+
+
+//////////// JS array methods //////////
+let bio = [];
+let insertDataToBioArray = (bioName, bioAge, bioJob) => {
+    bio.push(bioName);
+    bio.push(bioAge);
+    bio.push(bioJob);
+}
+insertDataToBioArray("Ko Ko Naing", 23, "Data Engrying");
+console.log(bio);
+
+/// push method is injecting data into array last /////////////
+
+let unShiftArray = ["data1", "data2", "data3"];
+let unShiftData = (unShiftName, unShiftAge) => {
+    unShiftArray.unshift(unShiftName);
+    unShiftArray.unshift(unShiftAge);
+}
+
+unShiftData("Ko Ko", 24);
+console.log(unShiftArray);
