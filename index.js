@@ -279,3 +279,23 @@ for (let i = 0; i < 5; i++) {
     let num = i + 1;
     console.log("line " + num);
 }
+
+
+///////////////// show data array with for loop ////////////////
+let emails = [
+    "kokonaingk72@gmail.com",
+    "myakayzin12@gmail.com",
+    "naingzawd@gmail.com",
+    "aungkhing32@gmail.com",
+    "hlakyaing25@gmail.com"
+];
+
+let showEamil = () => {
+    emails.forEach(email => {
+        console.log(email);
+        document.write(email);
+        document.write('<br />');
+    });
+ }
+
+showEamil();
