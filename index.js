@@ -369,3 +369,36 @@ Person.age = 19;
 Person.bioJob = "Programmer";
 
 console.log("===== " + Person.name)
+
+
+////////////////// Using JavaScript Date Object //////////////////////////////////
+let date = new Date();
+let currentDate = date.getFullYear();
+console.log(currentDate);
+
+
+//////////////////////////// Constructor //////////////////////////////////
+let aungaungBio = new function(name, age) {
+    this.name = name;
+    this.age = age;
+}
+
+function Knowledge(name, age) { 
+    this.name = name;
+    this.age = age;
+}
+
+let kokonaing = new Knowledge("Ko Ko Naing", 19);
+console.log(kokonaing);
+
+
+function carDeatials(name, model, date) {
+    this.name = name;
+    this.model = model;
+    this.date = date;
+}
+
+let bmw = new carDeatials("BMW", 2015, 1982);
+let mercedes = new carDeatials("Mercedes", 2019, 2000);
+console.log(bmw);
+console.log(mercedes);
