@@ -299,3 +299,18 @@ let showEamil = () => {
  }
 
 showEamil();
+
+
+//////////// while loop //////////////////////////////////
+let i = 0;
+while (i < 10) {
+    let num = i + 1;
+    console.log("hello world!" + num);
+    i++;
+}
+ 
+let t = 0;
+do {
+    console.log("hi!" + t);
+    t++;
+} while (t < 10);
