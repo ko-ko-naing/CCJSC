@@ -263,3 +263,19 @@ let popArray = ['A', 'B', 'C', 'D', 'E', 'F'];
 popArray.forEach(a => console.log("Character : " + a));
 popArray.pop(); //// remove the last element
 console.log(popArray);
+
+
+
+/////////////// For Loop - looping //////////////////////////////////
+console.log("line 1");
+console.log("line 2");
+console.log("line 3");
+console.log("line 4");
+console.log("line 5");
+
+console.log("----------------------------------------------------------------");
+
+for (let i = 0; i < 5; i++) {
+    let num = i + 1;
+    console.log("line " + num);
+}
