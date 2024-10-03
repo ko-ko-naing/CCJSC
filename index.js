@@ -251,3 +251,15 @@ let unShiftData = (unShiftName, unShiftAge) => {
 
 unShiftData("Ko Ko", 24);
 console.log(unShiftArray);
+
+//////////////////// Js default functions //////////////////
+let nameString = "Ko Ko Naing";
+console.log("name length :" + nameString.length);
+console.log("name index :" + nameString.indexOf("a"));
+console.log("type of name : " + typeof nameString);
+
+
+let popArray = ['A', 'B', 'C', 'D', 'E', 'F'];
+popArray.forEach(a => console.log("Character : " + a));
+popArray.pop(); //// remove the last element
+console.log(popArray);
