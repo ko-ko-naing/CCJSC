@@ -523,3 +523,26 @@ testFilterArray.filter(data => console.log(data));
 
 let filterData = testFilterArray.filter(data => data.age == 21);
 console.log (filterData);
+
+///////////// template literal syntax and some useful functions /////////////////// 
+let nameA = "ko ko naing";
+let ageA = 21;
+console.log(`My name is ${nameA}`);
+
+alert("hey what's up!");
+
+//////// confirm return ture or false //////////////////////
+let userFeedback = confirm("Are you sure you want to delete?");
+console.log(userFeedback);
+
+
+if (userFeedback) {
+    console.log("your post has been deleted.");
+} else {
+    console.log("your post hasn't been deleted");
+}
+
+
+///////// prompt() //////////////////////////////////
+let yourname = prompt("Enter your name");
+console.log(yourname);
