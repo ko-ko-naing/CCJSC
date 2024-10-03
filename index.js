@@ -495,3 +495,31 @@ console.log(numberNew);
 // map method can loop and can return new array with modified values
 let numberN = numbers.map(number => number);
 console.log(numberN);
+
+
+///////////// array fliter method /////////////////////////
+let testFilterArray = [
+    {
+        name: "Ko Ko",
+        age: 20
+    },
+    {
+        name: "Su Su",
+        age: 30
+    },
+    {
+        name: "Kyaw Kyaw",
+        age: 19
+    },
+    {
+        name: "Hlwan Hlwan",
+        age: 21
+    }
+];
+
+console.log(testFilterArray);
+
+testFilterArray.filter(data => console.log(data));
+
+let filterData = testFilterArray.filter(data => data.age == 21);
+console.log (filterData);
